@@ -51,7 +51,7 @@ libc = { version = "0.2.26", optional = true }
 [dev-dependencies]
 futures = { path = "../futures", features = ["async-await", "thread-pool"] }
 futures-test = { path = "../futures-test" }
-tokio = "0.1.11"
+tokio = "1.52.3"
 
 [package.metadata.docs.rs]
 all-features = true
